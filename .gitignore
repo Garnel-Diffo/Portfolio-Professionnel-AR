@@ -100,3 +100,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Vuforia
+unity-app/**/Packages/*.tgz
+unity-app/**/Packages/com.ptc.vuforia.engine-*.tgz
+
