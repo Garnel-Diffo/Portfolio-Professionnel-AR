@@ -4,24 +4,27 @@
 **Titre :** Portfolio Professionnel en Réalité Augmentée (AR)  
 **Objectif :** Transformer une carte de visite ou un document physique en portail vers une expérience AR immersive (modèles 3D PBR, vidéos, texte), pilotable en temps réel via une interface d'administration web et doté d'outils d'analyse.
 
-**Répertoire distant :** https://github.com/Garnel-Diffo/Portfolio-Professionnel-AR.git
+**Répertoire distant :** [https://github.com/Garnel-Diffo/Portfolio-Professionnel-AR.git](https://github.com/Garnel-Diffo/Portfolio-Professionnel-AR.git)
 
 ---
 
 ## Table des matières
-1. Objectifs du MVP  
-2. Liste exhaustive des outils & versions (à utiliser)  
-3. Architecture système (schéma)  
-4. Structure recommandée du dépôt  
-5. Installation & commandes rapides (Admin Web)  
-6. Configuration Unity 6.3 LTS — détail pas-à-pas  
-7. Packages Unity : installation & versions compatibles  
-8. Configuration Firebase — résumé opérationnel + règles  
-9. Schéma de données Firestore (exemples)  
-10. Pipeline d'assets et optimisations  
-11. CI / CD, sécurité, Git & bonnes pratiques  
-12. Release & builds (Android)  
-13. Annexes : liens officiels & notes
+1. [Objectifs du MVP](#1-objectifs-du-mvp)
+2. [Liste exhaustive des outils & versions (à utiliser)](#2-liste-exhaustive-des-outils--versions-utiliser-strictement)
+3. [Architecture système (schéma)](#3-architecture-système-schéma)
+4. [Structure recommandée du dépôt](#4-structure-recommandée-du-dépôt)
+5. [Installation & Lancement](#5-installation--lancement)
+    *   [Clonage du projet](#51-clonage-du-projet)
+    *   [Lancement Admin Web](#52-lancement-admin-web)
+    *   [Lancement Unity App](#53-lancement-unity-app)
+6. [Configuration Unity 6.3 LTS — détail pas-à-pas](#6-configuration-unity-63-lts--guide-détaillé)
+7. [Packages Unity : installation & versions compatibles](#7-packages-unity--installation--bonnes-pratiques)
+8. [Configuration Firebase — résumé opérationnel + règles](#8-configuration-firebase--règles-et-déploiement)
+9. [Schéma de données Firestore (exemples)](#9-schéma-de-données-firestore-exemples)
+10. [Pipeline d'assets et optimisations](#10-pipeline-dassets--optimisation)
+11. [CI / CD, sécurité, Git & bonnes pratiques](#11-ci--cd-sécurité--git)
+12. [Release & builds (Android)](#12-release--builds-android)
+13. [Annexes : liens officiels & notes](#13-annexes--liens-officiels)
 
 ---
 
@@ -126,58 +129,51 @@ demo/
 
 ---
 
-## 5. Installation & commandes rapides (Admin Web)
+## 5. Installation & Lancement
 
-### Créer le projet React + Vite
+### 5.1 Clonage du projet
+
+Ouvrez un terminal et exécutez la commande suivante pour récupérer les sources :
+
 ```bash
-cd admin-web
-npm create vite@latest . -- --template react
-npm install
+git clone https://github.com/Garnel-Diffo/Portfolio-Professionnel-AR.git
+cd Portfolio-Professionnel-AR
 ```
 
-### Installer Tailwind CSS 3 (commande exacte)
+*(Optionnel) Si vous utilisez Git LFS :*
 ```bash
-npm install -D tailwindcss@3 postcss autoprefixer
-npx tailwindcss init -p
+git lfs install
+git lfs pull
 ```
 
-Modifier `tailwind.config.cjs` :
-```js
-module.exports = {
-  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
-  theme: { extend: {} },
-  plugins: []
-};
-```
+### 5.2 Lancement Admin Web
 
-Ajouter `src/index.css` :
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
+Le panneau d'administration est une application React (Vite).
 
-### Dépendances utiles
-```bash
-npm install firebase react-router-dom react-hook-form axios chart.js
-```
+1.  Accédez au dossier :
+    ```bash
+    cd admin-web
+    ```
+2.  Installez les dépendances :
+    ```bash
+    npm install
+    ```
+3.  Lancez le serveur de développement :
+    ```bash
+    npm run dev
+    ```
+4.  Ouvrez votre navigateur à l'adresse indiquée (généralement `http://localhost:5173`).
 
-### Scripts recommandés
-Ajouter dans `package.json` :
-```json
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "lint": "eslint . --ext .js,.jsx"
-}
-```
+### 5.3 Lancement Unity App
 
-### Lancement local
-```bash
-npm run dev
-# http://localhost:5173
-```
+L'application mobile AR est développée sous Unity 6.3 LTS.
+
+1.  Ouvrez **Unity Hub**.
+2.  Cliquez sur **Add** (Ajouter) -> **Add project from disk**.
+3.  Sélectionnez le dossier `unity-app` présent à la racine du dépôt cloné.
+4.  Assurez-vous que la version d'Editor sélectionnée est bien **6000.3.2f1** (ou compatible 6.3 LTS).
+5.  Ouvrez le projet.
+6.  (Au premier lancement) Unity peut demander d'importer ou de résoudre des packages ; acceptez.
 
 ---
 
